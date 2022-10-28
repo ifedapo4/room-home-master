@@ -38,9 +38,9 @@ a:visited,a:link{
   font-size: 1.25rem;
   line-height: 1;
   border-radius: 0.25rem;
-  margin-right: auto;
-  float: left;
-  background-color: yellow;
+  margin-left: auto;
+  float: right;
+  background-color: white;
 }
 
 .navbar-toggler-icon {
@@ -55,13 +55,13 @@ a:visited,a:link{
 }
 
 .navbar-light button.navbar-toggler, span .navbar-toggler-icon {
-    background-color: yellow;
+    background-color: white;
     border: none;
 }
 
 .navbar-nav {
   display: inline-flex;
-  margin-left: 150px;
+  margin-left: 120px;
   padding: 20px;
 }
 
@@ -115,16 +115,13 @@ h3 {
   }
  
   a.navbar-brand {
-    margin-left: 250px;
-    margin-right: auto;
     float: none;
     text-align: center;
+    padding: 0;
+    margin: 0;
   }
   button.navbar-toggler {
-    margin-right: auto;
-    position: absolute; 
-    top: 10px;
-    margin-bottom: 40px;
+    margin: 5px 5px 5px 0px;
   }
  .navbar-collapse .navbar-nav {
     background-color: black;
@@ -133,24 +130,21 @@ h3 {
     margin-top: 20px;
   }
   nav .navbar-nav li a {
-  color:  white;
-  flex-direction: column !important;
-  text-align: center;
-  display: block;
-}
-.content {
-  padding: 30px;
-}
-.logo {
-  width: 100%;
-  margin-top: 10px;
-}
-h1 {
-  padding: ;
-  margin: px;
-  text-align: left;
-}
-
+    color:  white;
+    flex-direction: column !important;
+    text-align: center;
+    display: block;
+  }
+  .content {
+    padding: 30px;
+  }
+  .logo {
+    width: 100%;
+    margin-top: 10px;
+  }
+  h1 {
+    text-align: left;
+  }
 }
 
 @media (max-width: 992px) {
@@ -161,16 +155,15 @@ h1 {
   }
  
   a.navbar-brand {
-    margin-left: 250px;
-    margin-right: auto;
+    /*margin-right: auto;*/
     float: ;
     text-align: center;
+    padding: 0;
+    margin: 0;
   }
   button.navbar-toggler {
-    margin-right: auto;
-    position: absolute; 
-    top: 10px;
-    margin-bottom: 40px;
+    margin: 5px 5px 5px 0px;
+
   }
  .navbar-collapse .navbar-nav {
     background-color: black;
@@ -180,22 +173,24 @@ h1 {
     text-align: center;
   }
   nav .navbar-nav li a {
-  color:  white;
-}
-.content {
-  padding: 30px;
-}
-.logo {
-  width: 100%;
-  margin-top: 10px;
-}
-h1 {
-  padding: ;
-  margin: px;
-  text-align: left;
+    color:  white;
+  }
+  .content {
+    padding: 30px;
+  }
+  .logo {
+    width: 100%;
+    margin-top: 10px;
+  }
+  h1 {
+    text-align: left;
+  }
 }
 
-}
+   
+
+
+
    
 
 
